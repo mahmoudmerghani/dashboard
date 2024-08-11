@@ -133,6 +133,10 @@ header svg {
     margin-block: var(--main-spacing);
 }
 
+.main-content h3 {
+    margin-block: var(--main-spacing);
+}
+
 .projects {
     flex: 2;
     display: flex;
@@ -180,7 +184,7 @@ header svg {
 }
 
 .announcements {
-    margin-bottom: var(--main-spacing);
+    margin-bottom: calc(var(--main-spacing) * 2);
 }
 
 .announcement {
